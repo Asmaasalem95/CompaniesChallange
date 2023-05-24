@@ -19,15 +19,15 @@ run `npm install`
 
 copy  `.env.example file to .env `
 
+generate new app key `php artisan key:generate`
+
 
 navigate to your public server to see the app 
+
+### Errors You May Face
+1. storage folder permission denied `chmod 777 -R /storage`
 
 
 ### Test 
 
 `php artisan test`
-
-
-
-
-
